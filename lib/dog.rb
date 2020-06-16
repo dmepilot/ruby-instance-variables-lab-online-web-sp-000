@@ -1,9 +1,9 @@
 class Dog
-  def name = (dog_name)
+  def name= (dog_name) #name= is a "setter" method
     this_dogs_name = dog_name
   end
   
-  def name
+  def name #name is a "getter" method 
     this_dogs_name
   end
 end
